@@ -1,0 +1,145 @@
+.page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+main {
+    width: 325px;
+    padding: 2rem;
+    margin: auto;
+    height: 667px;
+
+}
+
+.page2 {
+    border-radius: 2rem;
+    background: hsl(216, 50%, 16%);
+    padding: 2rem;
+    
+}
+
+.nft img {
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page3 .nft div{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 2rem;
+    top: 50px;
+    width: 283px;
+    height: 283px;
+    opacity: 0;
+}
+
+.page3 .nft div:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.page3 .nft div img {
+    width: 25%;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+}
+
+.page3 a {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(255, 255, 255, 50%);
+    font-weight: 300;
+}
+
+.card {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card img{
+    width: auto;
+    height: auto;
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-top: 1.2rem;
+}
+
+.card1 {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.card1 h2 {
+    color: hsl(178, 100%, 50%);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card2 {
+    display: flex;
+    gap: 5px;
+}
+
+.card2 h2 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255, 50%);
+    font-weight: 300;
+}
+
+.end {
+    border-top: 1px solid rgb(255, 255, 255, 40%);
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.end img {
+    width: auto;
+    height: auto;
+    max-width: 4rem;
+    max-height: 4rem;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+.end h2 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255, 50%);
+    font-weight: 300;
+}
+
+.end a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.page3 a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    color: white;
+    margin-top: -5rem;
+}
